@@ -67,6 +67,11 @@ p {
 
 img {
   padding: 20px;
+  display: inline-block;
+}
+
+.container img {
+  width: 100%;
 }
 
 .btn {
@@ -174,8 +179,4 @@ fieldset[disabled] .btn {
 }
 .btn-block + .btn-block {
   margin-top: 5px;
-}
-
-img {
-  display: inline-block;
 }
